@@ -54,7 +54,7 @@ using namespace std;
   }
 
 
-TreeNode* buildTree(vector<int> &A) {
+TreeNode* buildTree(const vector<int> &A) {
 	vector<int> B;
     for(int i=0;i<A.size();i++){
         B.emplace_back(A[i]);
